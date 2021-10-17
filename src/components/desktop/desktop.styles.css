@@ -1,0 +1,241 @@
+.Desktop-Rounded-Box {
+    width: 800px;
+    align-self: center;
+    font-family: Verdana;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    background-color: lavenderblush;
+    text-align: center;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+}
+
+.Red {
+    color: darkred;
+}
+
+.pickRight {
+    float:right;
+    margin-left:20px;
+}
+
+.InfoText{
+    margin-left: 10px;
+}
+
+.pickLeft {
+    float:left;
+    margin-left:20px;
+}
+
+.fitContent {
+    overflow: hidden;
+}
+
+.clear { clear: both; }
+
+.Contact-Photo {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+P.Normal, P.exercise-instruction, P.exercise-step-explanation {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    background-color: transparent;
+    text-align: justify;
+    text-indent: 0px;
+    margin: 12px auto 12px auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.Content-Frame {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 75px;
+}
+
+.Content-Frame2 {
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.Rounded-Box-2 {
+    width: 300px;
+    align-self: center;
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 15px;
+    line-height: 23px;
+    color: #363636;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: lavenderblush;
+    text-align: center;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+img.student-photo:not(.mobile) {
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: gray 3px 3px 3px;
+}
+
+.Navigation-Container {
+    vertical-align:top;
+    display: block;
+}
+
+.Content-Container {
+    vertical-align:top;
+}
+
+.Language-Container {
+    vertical-align:top;
+}
+
+img.student-photo:not(.desktop) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: gray 3px 3px 3px;
+}
+
+.photo-pickLeft {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+color-normal {
+    color: #363636;
+}
+
+Normal {
+    margin-left: 10px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ul.Normal-DP {
+    list-style: circle inside;
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+#Content-Header {
+    height: 80px;
+    width: 100%;
+}
+
+.pinkHeader {
+    letter-spacing: 10px;
+    color: deeppink;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+.pinkBody {
+    color: deeppink;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+td.Fees-Package {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+    padding: 6px;
+    background-color: #2c61a5;
+    border: 2px solid #2c61a5;
+    border-top: none;
+    text-align: center;
+}
+
+table.Material-Classes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+td.Fees-Price {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+    z-index: 1;
+    padding: 6px;
+    background-color: transparent;
+    border: 2px solid #2c61a5;
+    border-right: 2px solid #2c61a5;
+    border-bottom: none;
+    text-align: center;
+}
+
+td.Fees-Package-Separator {
+    border-bottom: 4px solid #2c61a5;
+}
+
+.Big-Ass{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: medium;
+}

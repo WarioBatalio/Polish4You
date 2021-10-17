@@ -1,0 +1,308 @@
+import React from 'react'
+import '../desktop/desktop.styles.css'
+import '../mobile/mobile.styles.css'
+import photo from '../../about-me.png'
+import {ContactInfo} from '../ContactInfo/ContactInfo'
+import Alfabet from '../../alfabet.pdf'
+import RodzajRzeczownika from '../../rodzaj-gramatyczny.pdf'
+import Liczebniki from '../../Liczebniki.pdf'
+import OdmianaLiczebnikiRodzaje from '../../jeden-dwa-trzy.pdf'
+import OdmianaLiczebnikiRodzajePrzypadki from '../../dwa-dwie-dwaj.pdf'
+import Przypadki from '../../przypadki.pdf'
+import OdmianaRzeczowniki from '../../trudne-rzeczowniki.pdf'
+import PluraliaTantum from '../../pluralia-tantum.pdf'
+import OdmianaZaimkiDzier from '../../zaimki-dzierżawcze.pdf'
+import OdmianaZaimkiWskaz from '../../ten-ta-to.pdf'
+import ReakcjiaPrzyim from '../../rekcja-przyimków.pdf'
+import ReakcjaDopełniacz from '../../rekcja-plansze-dopełniacz.pdf'
+import ReakcjaBiernik from '../../rekcja-plansze-biernik.pdf'
+import ReakcjaNarzędnik from '../../rekcja-plansze-narzędnik.pdf'
+import ReakcjaMiejscownik from '../../rekcja-plansze-miejscownik.pdf'
+import StopniowaniePrzym from '../../stopniowanie-przymiotników.pdf'
+import StopniowaniePrzys from '../../stopniowanie-przysłówków.pdf'
+import CzasTeraz from '../../czas-teraźniejszy.pdf'
+import CzasPrzesz from '../../czas-przeszły.pdf'
+import CzasPrzysz from '../../czas-przyszły-złożony.pdf'
+import Aspekt from '../../aspekt.pdf'
+import CzasownikiRuchu from '../../czasowniki-ruchu.pdf'
+import TrybWarunk from '../../Tryb-warunkowy.pdf'
+import TrybRoz from '../../tryb-rozkazujący.pdf'
+import KoniugCzasPowiem from '../../powinien.pdf'
+import KoniugCzasByc from '../../być.pdf'
+import Imienislowy from '../../imiesłowy.pdf'
+import CzesciMowy from '../../części-mowy.pdf'
+import Obocz from '../../oboczności.pdf'
+import Negacja from '../../negacja.pdf'
+import UwDiploma from '../../Dyplom-UW.pdf'
+import RussianCertificate from '../../TRKI-IV.pdf'
+import ClientTestimonials from '../../Rekomendacje.pdf'
+
+export const MaterialsEnglish = () => {
+    return (
+        <div className ="Content-Frame">
+            <header>
+                <ContactInfo/>
+                <hr/>
+            </header>
+            <main>
+                <div>
+                    <article>
+                        <div className="fitContent">
+                            <img src={photo} className="pickRight" alt="photo" style={{height: 220}} />
+                            <section>
+                                <p class = "Normal">
+                                    Is Polish really so difficult to learn? In my opinion, there are no difficult or
+                                    easy languages since it all depends on your mother tongue and its similarity to the
+                                    language you've chosen to learn. Of course, Polish will be much easier for speakers
+                                    of other Slavic languages, but the main factor of success is how much effort, love,
+                                    and patience you invest in your studies.
+                                </p>
+                                <p class = "Normal">
+                                    Here, you can find materials to assist you with your self-studying, which I hope
+                                    will be helpful and make the process of learning this fascinating language even more
+                                    interesting and enjoyable.
+                                </p>
+                                <p class = "Normal">
+                                    If you are a teacher of Polish as a foreign language, you can use printouts of these
+                                    materials while conducting your classes. I will be very happy if you do so!
+                                </p>
+                                <hr/>
+                            </section>
+                        </div>
+                        <div className="fitContent">
+                            <section>
+                                <p className="pinkHeader"><b>PDF TEACHING MATERIALS</b></p>
+                                <table class="Material-Classes">
+                                    <tbody>
+                                        <tr>
+                                            <td className="Fees-Package">
+                                                <strong>POLISH GRAMMAR TABLES</strong>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Alfabet)}><i className="mdi mdi-help-circle"></i> Alfabet</a>
+                                                        <span className="color-normal"> - idealna tabela na pierwszą lekcję polskiego :)</span>
+                                                    </li>
+                                                </ul>
+                                                <hr/>
+                                                <p className="pinkBody">
+                                                    <b>
+                                                        Numerals:
+                                                    </b>
+                                                </p>
+                                                <hr/>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(RodzajRzeczownika)}><i className="mdi mdi-help-circle"></i> Rodzaj gramatyczny rzeczownika</a>
+                                                        <span className="color-normal"> : męski, żeński i nijaki, męskoosobowy i niemęskoosobowy, męskożywotny i męskorzeczowy... - o co w tym chodzi? :) </span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Liczebniki)}><i className="mdi mdi-help-circle"></i> Liczebniki główne, porządkowe i zbiorowe</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(OdmianaLiczebnikiRodzaje)}><i className="mdi mdi-help-circle"></i> Odmiana liczebników przez rodzaje</a>
+                                                        <span className="color-normal"> : jeden, jedna, jedno, dwa, dwie, dwaj, dwóch, dwoje...</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(OdmianaLiczebnikiRodzajePrzypadki)}><i className="mdi mdi-help-circle"></i> Odmiana liczebnika "dwa" przez rodzaje i przypadki</a>
+                                                        <span className="color-normal"> : dwa, dwie, dwaj, dwiema...</span>
+                                                    </li>
+                                                </ul>
+                                                <hr/>
+                                                <p className="pinkBody">
+                                                    <b>
+                                                        Declension:
+                                                    </b>
+                                                </p>
+                                                <hr/>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Przypadki)}><i className="mdi mdi-help-circle"></i> Przypadki</a>
+                                                        <span className="color-normal"> : mianownik, dopełniacz, celownik, biernik, narzędnik, miejscownik i wołacz</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(OdmianaRzeczowniki)}><i className="mdi mdi-help-circle"></i> Odmiana "trudnych" rzeczowników</a>
+                                                        <span className="color-normal"> : brat, człowiek, dziecko, imię, ksiądz, książę, miłość, muzeum, pieniądz, przyjaciel, zwierzę</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(PluraliaTantum)}><i className="mdi mdi-help-circle"></i> Pluralia tantum</a>
+                                                        <span className="color-normal"> czyli rzeczowniki, które mają tylko liczbę mnogą</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(OdmianaZaimkiDzier)}><i className="mdi mdi-help-circle"></i> Odmiana zaimków dzierżawczych</a>
+                                                        <span className="color-normal"> : mój, moja, moje</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(OdmianaZaimkiWskaz)}><i className="mdi mdi-help-circle"></i> Odmiana zaimków wskazujących</a>
+                                                        <span className="color-normal"> : ten, ta, to</span>
+                                                    </li>
+                                                </ul>
+                                                <hr/>
+                                                <p className="pinkBody">
+                                                    <b>
+                                                        Rection (case government of verbs and prepositions):
+                                                    </b>
+                                                </p>
+                                                <hr/>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(ReakcjiaPrzyim)}><i className="mdi mdi-help-circle"></i> Rekcja przyimków</a>
+                                                        <span className="color-normal"> - 6 kolorowych plansz</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(ReakcjaDopełniacz)}><i className="mdi mdi-help-circle"></i> Rekcja: dopełniacz</a>
+                                                        <span className="color-normal"> - 6 kolorowych plansz</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(ReakcjaBiernik)}><i className="mdi mdi-help-circle"></i> Rekcja: biernik</a>
+                                                        <span className="color-normal"> - 13 kolorowych plansz</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(ReakcjaNarzędnik)}><i className="mdi mdi-help-circle"></i> Rekcja: narzędnik</a>
+                                                        <span className="color-normal"> - 5 kolorowych plansz</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(ReakcjaMiejscownik)}><i className="mdi mdi-help-circle"></i> Rekcja: miejscownik</a>
+                                                        <span className="color-normal"> - 6 kolorowych plansz</span>
+                                                    </li>
+                                                </ul>
+                                                <hr/>
+                                                <p className="pinkBody">
+                                                    <b>
+                                                        Comparison of adjectives and adverbs:
+                                                    </b>
+                                                </p>
+                                                <hr/>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(StopniowaniePrzym)}><i className="mdi mdi-help-circle"></i> Stopniowanie przymiotników</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(StopniowaniePrzys)}><i className="mdi mdi-help-circle"></i> Stopniowanie przysłówków</a>
+                                                    </li>
+                                                </ul>
+                                                <hr/>
+                                                <p className="pinkBody">
+                                                    <b>
+                                                        Conjugation:
+                                                    </b>
+                                                </p>
+                                                <hr/>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(CzasTeraz)}><i className="mdi mdi-help-circle"></i> Czas teraźniejszy, grupy koniugacyjne</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(CzasPrzesz)}><i className="mdi mdi-help-circle"></i> Czas przeszły</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(CzasPrzysz)}><i className="mdi mdi-help-circle"></i> Czas przyszły złożony</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Aspekt)}><i className="mdi mdi-help-circle"></i> Aspekt</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(CzasownikiRuchu)}><i className="mdi mdi-help-circle"></i> Czasowniki ruchu</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(TrybWarunk)}><i className="mdi mdi-help-circle"></i> Tryb warunkowy (przypuszczający)</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(TrybRoz)}><i className="mdi mdi-help-circle"></i> Tryb rozkazujący</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(KoniugCzasPowiem)}><i className="mdi mdi-help-circle"></i> Koniugacja czasownika "powinien"</a>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(KoniugCzasByc)}><i className="mdi mdi-help-circle"></i> Koniugacja czasownika "być"</a>
+                                                    </li>
+                                                </ul>
+                                                <hr/>
+                                                <p className="pinkBody">
+                                                    <b>
+                                                        Other grammar tables:
+                                                    </b>
+                                                </p>
+                                                <hr/>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Imienislowy)}><i className="mdi mdi-help-circle"></i> Imiesłowy</a>
+                                                        <span className="color-normal"> : przymiotnikowe (czynne i bierne) i przysłówkowe (współczene i uprzednie)</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(CzesciMowy)}><i className="mdi mdi-help-circle"></i> Części mowy</a>
+                                                        <span className="color-normal"> : liczebniki, rzeczowniki, przymiotniki, przysłówki, przyimki...</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Obocz)}><i className="mdi mdi-help-circle"></i> Oboczności (alternacje)</a>
+                                                        <span className="color-normal"> : liczebniki, rzeczowniki, przymiotniki, przysłówki, przyimki...</span>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" className="headerProfile-menu-list" onClick={() => window.open(Negacja)}><i className="mdi mdi-help-circle"></i> Negacja</a>
+                                                        <span className="color-normal"> : liczebniki, rzeczowniki, przymiotniki, przysłówki, przyimki...</span>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </section>
+                        </div>
+                    </article>
+                </div>
+            </main>
+            <footer>
+
+            </footer>
+        </div>
+    )
+}

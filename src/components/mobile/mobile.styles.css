@@ -1,0 +1,70 @@
+.pickMiddle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-pickMiddle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.Middle{
+    text-align: center;
+}
+
+.Mobile-Rounded-Box {
+    width: 365px;
+    align-self: center;
+    font-family: Verdana;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    background-color: lavenderblush;
+    text-align: center;
+    padding: 10px;
+    -webkit-border-radius: 15px;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    margin-bottom: 10px;
+}
+
+.pinkHeader {
+    letter-spacing: 10px;
+    color: deeppink;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+.pinkBody {
+    color: deeppink;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+td.Fees-Package {
+    font-family: Verdana;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+    padding: 6px;
+    background-color: #2c61a5;
+    border: 2px solid #2c61a5;
+    border-top: none;
+    text-align: center;
+}
+
+table.Mobile-Material-Classes{
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
